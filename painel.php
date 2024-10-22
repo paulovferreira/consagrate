@@ -42,9 +42,25 @@ include('verifica_login.php');
     
         </span>
     </div>
-</div>      
+    </div>      
 
-<div class="gallery">        
+    <div class="separador">        
+        <div><a href="./videos/video1.php"> <img src="./img/comece.png" alt="Imagem 2">  </a>  </div>           
+    </div>
+
+    <div class="gallery">        
+        <div><a href="./pages/comece.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./videos/video1.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./videos/video1.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
+        <!-- Adicione mais divs com suas imagens aqui -->
+        <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->
+    </div>
+
+    <div class="separador">        
+        <div><a href="./videos/video1.php"> <img src="./img/comece.png" alt="Imagem 2">  </a>  </div>           
+    </div>    
+
+    <div class="gallery">        
         <div><a href="./videos/video1.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>
         <div><a href="./videos/video2.php"> <img src="./img/capa2.png" alt="Imagem 2">  </a>  </div>
         <div><a href="./videos/video3.php"> <img src="./img/capa3.png" alt="Imagem 2">  </a>  </div>
@@ -55,12 +71,6 @@ include('verifica_login.php');
         <div><a href="./videos/video8.php"> <img src="./img/capa8.png" alt="Imagem 2">  </a>  </div>
         <div><a href="./videos/video9.php"> <img src="./img/capa9.png" alt="Imagem 2">  </a>  </div>
         <div><a href="./videos/video10.php"> <img src="./img/capa10.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video11.php"> <img src="./img/capa11.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video12.php"> <img src="./img/capa12.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video13.php"> <img src="./img/capa13.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video14.php"> <img src="./img/capa14.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video15.php"> <img src="./img/capa15.png" alt="Imagem 2">  </a>  </div>
-        <div><a href="./videos/video16.php"> <img src="./img/capa16.png" alt="Imagem 2">  </a>  </div>
         
         <!-- Adicione mais divs com suas imagens aqui -->
         <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->

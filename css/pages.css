@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    color: white; /* Cor do texto */
+    background-color: #1e1e2f; /* Fundo mais escuro em azul */
+}
+
+.main-container {
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport (tela) */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+    margin-bottom: 10px; /* Espaço abaixo do título principal */
+    color: #4a90e2; /* Azul claro */
+}
+
+h2 {
+    margin-bottom: 20px; /* Espaço abaixo do subtítulo */
+    color: #50e3c2; /* Azul turquesa */
+}
+
+p {
+    margin-bottom: 30px; /* Espaço abaixo do texto explicativo */
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+video {
+    width: 80%; /* Ajusta a largura do vídeo */
+    height: auto; /* Mantém a proporção do vídeo */
+}
+
+.back-button {
+    margin-top: 20px; /* Espaço acima do botão */
+    padding: 10px 20px; /* Padding para o botão */
+    background-color: #4a90e2; /* Azul claro para o botão */
+    color: white; /* Cor do texto do botão */
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+.back-button:hover {
+    background-color: #357ab7; /* Azul mais escuro ao passar o mouse */
+}
