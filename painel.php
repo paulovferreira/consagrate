@@ -45,7 +45,7 @@ include('verifica_login.php');
     </div>      
 
     <div class="separador">        
-        <div><a href="./videos/video1.php"> <img src="./img/comece.png" alt="Imagem 2">  </a>  </div>           
+        <div> <img src="./img/comece.png" alt="Imagem 2"> </div>           
     </div>
 
     <div class="gallery">        
@@ -57,7 +57,7 @@ include('verifica_login.php');
     </div>
 
     <div class="separador">        
-        <div><a href="./videos/video1.php"> <img src="./img/comece.png" alt="Imagem 2">  </a>  </div>           
+    <div> <img src="./img/aulas.png" alt="Imagem 2"> </div>   
     </div>    
 
     <div class="gallery">        
