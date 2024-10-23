@@ -60,8 +60,6 @@ include('verifica_login.php');
                     E ao Espírito Santo demos<br/>
                     Aos três um louvor<br/><br/>
                     <b>Amém.</b>
-
-
                 </p>
             </div>
             <div class="step">
