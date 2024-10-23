@@ -49,9 +49,9 @@ include('verifica_login.php');
     </div>
 
     <div class="gallery">        
-        <div><a href="./pages/comece.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
-        <div><a href="./videos/video1.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
-        <div><a href="./videos/video1.php"> <img src="./img/capa1.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./pages/comece.php"> <img src="./img/instrucoes.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./videos/video1.php"> <img src="./img/documentos.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./videos/video1.php"> <img src="./img/ato.png" alt="Imagem 2">  </a>  </div>        
         <!-- Adicione mais divs com suas imagens aqui -->
         <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->
     </div>
@@ -76,7 +76,20 @@ include('verifica_login.php');
         <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->
     </div>
 
-    
+    <div class="separador">        
+        <div> <img src="./img/exercicios.png" alt="Imagem 2"> </div>                   
+    </div>
+
+    <div class="gallery">        
+        <div><a href="./12dias.php"> <img src="./img/12dias.png" alt="Imagem 2">  </a>  </div>
+        <div><a href="./prepsemana1.php"> <img src="./img/semana1.png" alt="Imagem 2">  </a>  </div>
+        <div><a href="./videos/video3.php"> <img src="./img/semana2.png" alt="Imagem 2">  </a>  </div>
+        <div><a href="./videos/video4.php"> <img src="./img/semana3.png" alt="Imagem 2">  </a>  </div>
+                
+        <!-- Adicione mais divs com suas imagens aqui -->
+        <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->
+    </div>
+
     <footer>
         <p> Todos os direitos reservados. Camila Ferreira - CREFITO: 5554478. Desenvolvido por: Paulo Ferreira Tecnologia.</p>
     </footer>
