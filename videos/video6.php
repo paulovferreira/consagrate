@@ -17,26 +17,17 @@ include('../verifica_login.php');
     <title>Controle de Acesso</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="../css/video.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
 </head>
 
 <body>
 
-
-<div class="main-container">
+    <div class="main-container">
         <div class="video-container">
-            <video controls controlsList="nodownload" autoplay loop>
-                <!-- Substitua "seu-video.mp4" pelo caminho do seu vídeo -->
-                <source src="../mp4/aula6.mp4" type="video/mp4">
-            Desculpe, seu navegador não suporta a tag de vídeo.
-            </video>
+            <!-- Embed de vídeo do YouTube -->
+            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/KvjxFrWOmys?si=qqKU3etXeONE92m3" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
     </div>
-
-    
-    
-    
-
-
 
 </body>
 

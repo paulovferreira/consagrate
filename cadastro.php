@@ -58,12 +58,22 @@
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input name="usuario" type="text" class="input is-large" placeholder="Usuário">
+                                    <input name="usuario" type="text" class="input is-large" placeholder="Local Cadastro">
                                 </div>
                             </div>
                             <div class="field">
                                 <div class="control">
-                                    <input name="senha" class="input is-large" type="password" placeholder="Senha">
+                                    <input name="email" type="text" class="input is-large" placeholder="E-mail">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="telefone" type="text" class="input is-large" placeholder="Telefone">
+                                </div>
+                            </div>
+                            <div class="field">
+                                <div class="control">
+                                    <input name="senha" class="input is-large" type="input is-large" placeholder="Chave de Acesso">
                                 </div>
                             </div>
                              <div class="field">

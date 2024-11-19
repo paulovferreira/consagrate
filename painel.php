@@ -14,36 +14,35 @@ include('verifica_login.php');
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pilates em Casa - by Camila Ferreira</title>
+    <title>Eu me Consagro - Curso de Consagração Online</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">    
     <link rel="stylesheet" type="text/css" href="css/painel.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
 </head>
 
 <body>
 
 
-    <div id="header">
-        <div id="logo">
-            <img src="./img/mulher.png" alt="Imagem do Usuário" width="70" height="70">
-        </div>
-        <?php
-            if (isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'ADMIN'):
-         ?>                
-            <a class="highlight-button" href="cadastro.php">Cadastrar novo usuário</a>
-        <?php
-            endif;
-        ?>
-        <div id="user-info">
-            <img src="./img/user.png" alt="Imagem do Usuário" width="40" height="40">
-            <span>
-                Olá, <?php echo $_SESSION['nome'];?>
-                <br>
-                Sair
+<div id="header">
+    <div id="logo">
+        <img src="./img/mulher.png" alt="Imagem do Usuário" width="70" height="70">
+    </div>
+    <?php
+    if (isset($_SESSION['perfil']) && $_SESSION['perfil'] === 'ADMIN'):
+    ?>                
+        <a class="highlight-button" href="cadastro.php">Cadastrar novo usuário</a>
+    <?php
+    endif;
+    ?>
+    <div id="user-info">
+        <!-- <img src="./img/user.png" alt="Imagem do Usuário" width="40" height="40"> -->
+        <span>
+            Olá, <?php echo $_SESSION['nome'];?>
+            <br>         
     
-            </span>
-        </div>
-    </div>   
-    <br/>   
+        </span>
+    </div>
+    </div>      
 
     <div class="separador">        
         <div> <img src="./img/comece.png" alt="Imagem 2"> </div>           
@@ -51,8 +50,8 @@ include('verifica_login.php');
 
     <div class="gallery">        
         <div><a href="./pages/comece.php"> <img src="./img/instrucoes.png" alt="Imagem 2">  </a>  </div>        
-        <div><a href="./videos/video1.php"> <img src="./img/documentos.png" alt="Imagem 2">  </a>  </div>        
-        <div><a href="./videos/video1.php"> <img src="./img/ato.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./pages/documentos.php"> <img src="./img/documentos.png" alt="Imagem 2">  </a>  </div>        
+        <div><a href="./pages/ato.php"> <img src="./img/ato.png" alt="Imagem 2">  </a>  </div>        
         <!-- Adicione mais divs com suas imagens aqui -->
         <!-- Certifique-se de substituir "imagem1.jpg", "imagem2.jpg", etc., pelos caminhos corretos das suas imagens -->
     </div>
@@ -92,7 +91,7 @@ include('verifica_login.php');
     </div>
 
     <footer>
-        <p> Todos os direitos reservados. Camila Ferreira - CREFITO: 5554478. Desenvolvido por: Paulo Ferreira Tecnologia.</p>
+        <p> Todos os direitos reservados. <br/> Desenvolvido e distribuido por Paulo V. Ferreira.</p>
     </footer>
 
 

@@ -1,0 +1,96 @@
+/* downloads.css */
+
+/* Configurações gerais */
+body {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', serif; 
+    background-image: url('../img/fundo_page.jpg');
+}
+
+/* Estilos para a seção principal */
+.hero {
+    background-color: #f3f4f6;
+    padding-top: 3rem;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Títulos principais */
+.title {
+    color: #4a90e2;
+    margin-bottom: 1rem;
+    text-align: center;
+    align-items: center;
+    position: center;
+}
+
+.subtitle {
+    color: #7d8ca0;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+/* Caixa de categoria */
+.category-box {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+}
+
+.category-title {
+    color: #4a4a4a;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* Caixa de PDF */
+.pdf-box {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+}
+
+.pdf-box:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ícone de PDF */
+.pdf-box .icon {
+    font-size: 3rem;
+    color: #ff3860;
+}
+
+/* Título do PDF */
+.pdf-title {
+    font-size: 1.1rem;
+    color: #4a4a4a;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Botão de download */
+.download-button {
+    background-color: #4a90e2;
+    color: #ffffff;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #357ab8;
+}

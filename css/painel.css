@@ -96,9 +96,15 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #031c5f;
+  /*background-color: #031c5f;
   color: #fff;
-  padding: 10px;
+  padding: 10px;*/ 
+
+  background: linear-gradient(to right, #000, #333);
+  color: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
 }
 
 #logo {
@@ -121,11 +127,11 @@ body {
 }
 
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #1e56a3;
+  background: #333;
   color: #fff;
-  padding: 10px;
+  padding: 15px;
+  text-align: center;
+  font-size: 0.9em;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
 
 }

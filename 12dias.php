@@ -13,8 +13,9 @@ include('verifica_login.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>12 dias prelimiminares</title>    
+    <title>Eu me Consagro - 12 dias prelimiminares</title>    
     <link rel="stylesheet" type="text/css" href="css/12dias.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
 </head>
 <body>
     <div>        
@@ -60,6 +61,8 @@ include('verifica_login.php');
                     E ao Espírito Santo demos<br/>
                     Aos três um louvor<br/><br/>
                     <b>Amém.</b>
+
+
                 </p>
             </div>
             <div class="step">
@@ -81,7 +84,10 @@ include('verifica_login.php');
                 Teu amor no peito acende,<br/>
                 Do nosso corpoa fraqueza<br/>
                 Com tua força defende.<br/><br/>
-                De nós afasta o inimigo.<br/>
+                De nós afasta o inimigo.<br/>                
+                Dá-nos a paz sem demora,<br/>
+                Guiai-nos; e evitaremos<br/>
+                Tudo quanto se deplora.<br/><br/>
                 Dá que Deus Pai e seu Filho<br/>
                 Por ti nós bem conheçamos,<br/>
                 E em ti, Espírito de ambos<br/>

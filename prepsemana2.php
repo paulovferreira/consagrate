@@ -13,8 +13,9 @@ include('verifica_login.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Consagra-te</title>    
+    <title>Eu me Consagro - Segunda Semana</title>       
     <link rel="stylesheet" type="text/css" href="css/12dias.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
 </head>
 <body>
     <div>        
