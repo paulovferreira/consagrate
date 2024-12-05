@@ -33,23 +33,25 @@ session_start();
 
                         <!-- Vídeo de boas-vindas -->
                         <div class="video-container mb-4">
-                            <iframe width="560" height="315" src="https://www.youtube.com/embed/seu-video-id" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/BeJKJ1POIes?si=Di414Gzu4TbjKRIa&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
 
                         <hr/>
 
-                        <!-- QR Code para contato via WhatsApp -->
+                        <!-- QR Code para contato via WhatsApp 
                         <figure class="image is-128x128" style="margin: 0 auto;">
                             <img src="img/qrcode.png" alt="QR Code para WhatsApp">
                         </figure>
                         <hr/>
                         <p class="mb-4">Escaneie o QR Code para falar conosco pelo WhatsApp.</p>
-
+                        -->
+                        <p class="mb-4">Clique no botão abaixo e me chama no WhatsApp para liberar seu acesso. </p>
+                        <br>
                         <!-- Botão de contato pelo WhatsApp -->
-                        <a href="https://wa.me/5511999999999" target="_blank" class="button is-success is-large is-fullwidth mb-4">
+                        <a href="https://wa.me/5514996178561" target="_blank" class="button is-success is-large is-fullwidth mb-4">
                             Falar Pelo WhatsApp e pegar meu acesso!
                         </a>
-
+                        <br>
                         <!-- Mensagem de despedida -->
                         <p class="has-text-grey">Estou pronto para ajudar você a começar sua jornada. Você não estará sozinho(a)!</p>
                     </div>
