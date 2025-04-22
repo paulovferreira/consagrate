@@ -16,28 +16,21 @@ include('../verifica_login.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Controle de Acesso</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">    
-    <link rel="stylesheet" type="text/css" href="../css/video.css">
-    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
+    <link rel="stylesheet" type="text/css" href="../css/ato.css">
+    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico"> 
 </head>
 
 <body>
 
-
-
-<div class="main-container">
-    <div class="video-container">
-        <!-- Embed de vídeo do YouTube -->
-        <h1>Exercicios Espirituais</h1>
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/4leEtZ-WdJM?si=k8eZ9c_50r1YsGOv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<div class="main">
+    <div class="video-section">
+        <h1>Exercícios Espirituais</h1>
+        <iframe src="https://www.youtube-nocookie.com/embed/4leEtZ-WdJM?si=k8eZ9c_50r1YsGOv" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-</div>
 
-
-<div class="main-container">
-    <div class="video-container">
-    <h1>Consagração e Renovação</h1>
-        <!-- Embed de vídeo do YouTube -->
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/uBSXDmS4H7M?si=HtAFpUjNw3N10HSN" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div class="video-section">
+        <h1>Consagração e Renovação</h1>
+        <iframe src="https://www.youtube-nocookie.com/embed/uBSXDmS4H7M?si=HtAFpUjNw3N10HSN" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 

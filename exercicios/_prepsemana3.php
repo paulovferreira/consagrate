@@ -1,11 +1,3 @@
-<?php
-if (session_status() === PHP_SESSION_NONE) {
-    // Verifica se a sessão ainda não foi iniciada
-    session_start();
-}
-
-include('verifica_login.php');
-?>
 
 <!DOCTYPE html>
 
@@ -13,9 +5,8 @@ include('verifica_login.php');
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eu me Consagro - Terceira Semana</title>     
+    <title>Consagra-te - Terceira Semana</title>    
     <link rel="stylesheet" type="text/css" href="css/12dias.css">
-    <link rel="shortcut icon" type="imagex/png" href="./img/logo.ico">
 </head>
 <body>
     <div>        
@@ -33,7 +24,6 @@ include('verifica_login.php');
                 1) Rezar a Ladainha do Espírito Santo; <br/>
                 2) Rezar a oração Ave, Maris Stella; <br/>
                 3) Rezar a Ladainha do Santíssimo Nome de Jesus <br/>
-                4) Oração de Santo Agostinho
 
             </div>
             <div class="step">
@@ -242,54 +232,18 @@ include('verifica_login.php');
                     Permite que tenhamos sempre, Senhor, um igual temor e amor pelo teu santo nome; pois não deixas de governar <br/>
                     aqueles que estabeleces na firmeza do teu amor. Tu que vives e reinas pelos séculos dos séculos. <br/>
                     <b>Amém!</b>                 
-            </div>     
-            
-            <div class="step">
-                <h2>ORAÇÃO DE SANTO AGOSTINHO</h2>
-                   Vós sois, ó Jesus, o Cristo, meu Pai santo, meu Deus misericordioso, <br/> 
-                   meu Rei infinitamente grande; sois meu bom pastor, meu único mestre,<br/>
-                   meu auxílio cheio de bondade, meu bem-amado de uma beleza maravilhosa,<br/>
-                   meu pão vivo, meu sacerdote eterno, meu guia para a pátria, minha <br/>
-                   verdadeira luz, minha santa doçura, meu reto caminho,<br/>
-                   sapiência minha preclara, minha pura simplicidade,<br/>
-                   minha paz e concórdia; sois, enfim, toda a minha salvaguarda, <br/>
-                   minha herança preciosa, minha eterna salvação…  <br/><br/>
-
-                   Ó Jesus Cristo, amável Senhor, por que, em toda minha vida, <br/>
-                   amei, por que desejei outra coisa senão vós? Onde estava eu <br/>
-                   quando não pensava em vós? Ah! que, pelo menos, a partir deste <br/> 
-                   momento meu coração só deseje a vós e por vós se abrase, Senhor Jesus! <br/>
-                   Desejos de minha alma, correi, que já bastante tardastes;<br/>
-                   apressai-vos para o fim a que aspirais; procurai em verdade <br/>
-                   aquele que procurais. Ó Jesus, anátema seja quem não vos ama. <br/>
-                   Aquele que não vos ama seja repleto de amarguras. Ó doce Jesus, <br/>
-                   sede o amor, as delícias, a admiração de todo coração dignamente <br/>
-                   consagrado à vossa glória. Deus de meu coração e minha partilha, <br/>
-                   Jesus Cristo, que em vós meu coração desfaleça, e sede vós mesmo a minha <br/>
-                   vida. Acenda-se em minha alma a brasa ardente de vosso amor e se <br/>
-                   converta num incêndio todo divino, a arder para sempre no altar de <br/>
-                   meu coração; que inflame o íntimo de meu ser, e abrase o âmago de minha <br/>
-                   alma; para que no dia de minha morte eu apareça diante de vós <br/>
-                   inteiramente consumido em vosso amor… <br/><br/>
-                   Amém.
-
-            </div>
+            </div>         
 
             <div class="step">
-                <h2>A EXEMPLO DE SANTO AGOSTINHO</h2>
+                <h2>Agora é seu momento.</h2>
+                <p>
+                    Permita-se olhar Jesus nos olhos e ouvir o que Ele tem a dizer sobre você! . <br/>
+                    Peça que Ele te encontre, revele sua face a você e o ame de todo o seu coração. <br/>
 
-                Deverão recitar centenas de vezes ao dia: <br/>
-                <b>SENHOR, QUE EU SAIBA QUEM SOIS.</b> <br/><br/>
+                    <h3>Deus abençoe.</h3>
+                </p>
+            </div>  
 
-                Peça a Ele que se revele a você de uma maneira ÚNICA e como nunca antes! <br/> <br/>
-
-                Jesus é sempre o mesmo, mas nunca igual. Sempre tem uma direção nova aos seus consagrados. <br/><br/>
-
-                Deus abençoe!
-
-            </div>
-
-            
             <div class="navigation">
                 <button id="prevBtn" onclick="prevStep()" disabled>Anterior</button>
                 <button id="nextBtn" onclick="nextStep()">Próximo</button>
